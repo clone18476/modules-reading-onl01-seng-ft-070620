@@ -10,9 +10,9 @@ class Dancer
  # 
   attr_accessor :name
  #
- # def initialize(name)
- #   @name = name
- # end
+  def initialize(name)
+    @name = name
+  end
   
   
  extend FancyDance::ClassMethods
