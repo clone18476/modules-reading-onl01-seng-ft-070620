@@ -4,9 +4,9 @@ require_relative './fancy_dance.rb'
 
 class Kid
   
-  extend MetaDancing
+  #extend MetaDancing
   
-  include Dance
+ # include Dance
  
   attr_accessor :name
  
