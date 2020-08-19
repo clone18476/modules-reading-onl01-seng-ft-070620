@@ -5,9 +5,9 @@ require_relative './fancy_dance.rb'
 class Kid
   
   
- # include Dance
+  include Dance
  #
- # attr_accessor :name
+  attr_accessor :name
  #
  # def initialize(name)
  #   @name = name
